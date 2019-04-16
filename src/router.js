@@ -8,17 +8,17 @@ export default new Router({
     mode:'history',
     routes: [
         {
-            path: '/', ///builder/form
+            path: '/',
             name: 'design',
             component: Home
         },
         {
-            path: '/preview', ///builder/form/preview
+            path: '/preview',
             name: 'preview',
             component: () => import('./views/Preview.vue')
         },
         {
-            path: '/about', ///builder/form/about
+            path: '/about',
             name: 'about',
             component: () => import('./views/About.vue')
         }
