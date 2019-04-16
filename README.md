@@ -12,7 +12,7 @@ A simple form-builder with drag and drop to help you deal your own form.
 - [vue-fontawesome](https://github.com/FortAwesome/vue-fontawesome "vue-fontawesome")
 .
 .
-.a
+.
 
 
 ## Project setup
