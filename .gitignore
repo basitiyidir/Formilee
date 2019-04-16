@@ -1,0 +1,50 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Python Django
+/myvenv/*
+/media/*
+/collect_static/*
+**/__pycache__/
+
+# Diğerleri
+logs
+*.log
+*.sqlite3
+pids
+*.pid
+*.seed
+*.pyc
+*.env
+*.po
+*.mo
+ozel.not
+*.backup
+/bower_components/*
+/node_modules/*

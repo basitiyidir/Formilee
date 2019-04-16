@@ -1,0 +1,43 @@
+// Include Bootstrap and BootstrapVue SCSS files
+
+
+/*! `Custom` Bootstrap 4 theme */
+// $body-bg: blue;
+// $body-color: red;
+
+$enable-grid-classes:false;
+$primary:#D80E70;
+$secondary:#dddddd;
+$success:#4EF037;
+$danger:#FA4659;
+$info:#00BBF0;
+$warning:#f4f133;
+$light:#eeeeee;
+$dark:#353535;
+$spacer:1rem;
+$border-width:1px;
+$btn-border-radius:.25rem;
+
+.about {
+    padding: 3.5rem;
+}
+
+.options {
+    margin: 0;
+    padding: 0;
+        li {
+            list-style-type: none;
+        }
+}
+
+.wrapper-forms {
+		//height: calc(60vh - 110px);
+		overflow: auto;
+}
+
+
+
+// Add SASS theme customizations here..
+// Include Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
